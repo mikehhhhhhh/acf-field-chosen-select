@@ -1,9 +1,9 @@
 <?php
 /*
 Plugin Name: Advanced Custom Fields: Chosen_Select
-Plugin URI: http://www.aardvarklondon.com/
+Plugin URI: https://github.com/AardvarkMike/acf-field-chosen-select
 Description: 'Chosen' enabled select
-Version: 1.0.0
+Version: 0.1
 Author: Mike Hughes
 Author URI: http://www.aardvarklondon.com/
 */
