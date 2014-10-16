@@ -8,10 +8,13 @@ Author: Mike Hughes
 Author URI: http://www.aardvarklondon.com/
 */
 
-load_plugin_textdomain( 'acf-FIELD_NAME', false, dirname( plugin_basename(__FILE__) ) . '/lang/' );
+load_plugin_textdomain( 'acf-chosen_select', false, dirname( plugin_basename(__FILE__) ) . '/lang/' );
 
-add_action('acf/include_field_types', 'include_chosen_select');
-function include_chosen_select( $version )
-{
-    include_once('acf-chosen-select-v5.php');
+
+function include_field_types_chosen_select( $version ) {
+
+    include_once('acf-chosen_select-v5.php');
+
 }
+
+add_action('acf/include_field_types', 'include_field_types_chosen_select');
