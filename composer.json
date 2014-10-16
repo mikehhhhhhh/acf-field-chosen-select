@@ -1,0 +1,12 @@
+{
+    "name": "wordpress-plugins/acf-field-chosen-select",
+    "type": "wordpress-plugin",
+    "description": "A plugin to Wordpress/ACF to add a Chosen Select",
+    "authors": [
+        {
+            "name": "Mike Hughes",
+            "email": "mike@aardvarklondon.com",
+            "role": "Developer"
+        }
+    ]
+}
