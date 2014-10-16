@@ -42,7 +42,7 @@ class acf_field_chosen_select extends acf_field_select
         return parent::render_field( $field );
     }
 
-    public function add_js()
+    public function add_custom_js()
     {
         echo "<script type='text/javascript'>jQuery('.acf-chosen-select').chosen();</script>";
     }
