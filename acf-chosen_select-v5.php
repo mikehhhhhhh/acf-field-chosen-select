@@ -44,7 +44,10 @@ class acf_field_chosen_select extends acf_field_select
 
     public function add_custom_js()
     {
-        echo "<script type='text/javascript'>jQuery(document).ready(function($){ if( $.isFunction($.fn.chosen) ) { $('.acf-chosen-select').chosen(); } });</script>";
+        if( is_admin() )
+        {
+            echo "<script type='text/javascript'>jQuery(document).ready(function($){ if( $.isFunction($.fn.chosen) ) { $('.acf-chosen-select').chosen(); } });</script>";
+        }
     }
 }
 
